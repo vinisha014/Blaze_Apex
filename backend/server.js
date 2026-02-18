@@ -8,6 +8,7 @@ const { analyzeImage } = require("./services/rekognitionService");
 const { speechToText } = require("./services/transcribeService");
 const { classifyText } = require("./services/nbClassifier");
 
+
 const app = express();
 app.use(cors());
 app.use(express.json());
